@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  go-app:
+    image: go-lang-project
+    container_name: go-app
+    restart: always
+    ports:
+      - "8080:8080"
